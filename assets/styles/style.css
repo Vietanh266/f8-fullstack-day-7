@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|Source+Sans+Pro:300,400,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --PT-sans: "PT Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--PT-sans);
+}
+
+/* COMMON */
