@@ -128,6 +128,11 @@ a {
 
 .hero .breadcrumbs a {
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs li:first-child:hover a {
+  color: #783df0;
 }
 
 .breadcrumbs li + li:before {
@@ -195,6 +200,7 @@ a {
   line-height: 40px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   flex-grow: 1;
+  font-size: 1.5rem;
 }
 
 .sidebar-list .sidebar-list-item a:hover {
@@ -252,6 +258,10 @@ a {
 .card .text h5 {
   display: flex;
   flex-grow: 1;
+}
+
+.card .text h5:hover a {
+  color: #b80257;
 }
 
 .card .text h5 a {
