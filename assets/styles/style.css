@@ -411,6 +411,10 @@ a {
   font-size: 1.5rem;
 }
 
+.footer-list li:hover a {
+  color: #b80257;
+}
+
 .footer-subcribe h4 {
   font-size: 2rem;
   font-weight: 700;
@@ -445,4 +449,9 @@ a {
   padding: 0.8rem 2.2rem;
   border-radius: 2rem;
   margin-top: 1rem;
+}
+
+.footer-subcribe-form button:hover {
+  color: #b80257;
+  background-color: #fff;
 }
