@@ -283,8 +283,10 @@ a {
   width: 30.5%;
 }
 
-.card img {
+.card-img {
   width: 100%;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .card .text {
@@ -492,4 +494,18 @@ a {
 .footer-subcribe-form button:hover {
   color: #b80257;
   background-color: #fff;
+}
+
+.scroll-up {
+  background-color: #b80257;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  position: fixed;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
